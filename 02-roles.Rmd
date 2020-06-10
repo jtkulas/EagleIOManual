@@ -1,0 +1,95 @@
+# Responsibilities
+
+As of Spring Semester 2020, the organizational structure of Eagle I.O is:
+
+<center>
+![](images/orgchart.PNG)
+</center> 
+
+
+```{r trying, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(grid)
+library(Gmisc)
+
+grid.newpage()
+
+# Initiate the boxes that we want to connect
+side <- boxPropGrob("Side", "Left", "Right", 
+                    prop=.3, 
+                    x=0, y=.9,
+                    bjust = c(0,1))
+start <- boxGrob("Top", 
+                 x=.6, y=coords(side)$y, 
+                 box_gp = gpar(fill = "yellow"))
+bottom <- boxGrob("Bottom", x=.6, y=0, 
+                  bjust="bottom")
+
+
+sub_side_left <- boxGrob("Left", 
+                         x = coords(side)$left_x, 
+                         y = 0,
+                         bjust = "bottom")
+sub_side_right <- boxGrob("Right", 
+                          x = coords(side)$right_x, 
+                          y = 0,
+                          bjust = "bottom")
+
+odd <- boxGrob("Odd\nbox", 
+               x=coords(side)$right, 
+               y=.5)
+
+odd2 <- boxGrob("Also odd", 
+               x=coords(odd)$right + 
+                 distance(bottom, odd, type="h", half=TRUE) -
+                 unit(2, "mm"), 
+               y=0,
+               bjust = c(1,0))
+
+exclude <- boxGrob("Exclude:\n - Too sick\n - Prev. surgery", 
+                   x=1, y=coords(bottom)$top + 
+                     distance(start, bottom, 
+                              type="v", half=TRUE), 
+                   just="left", bjust = "right")
+
+# Connect the boxes and print/plot them
+connectGrob(start, bottom, "vertical")
+connectGrob(start, side, "horizontal")
+connectGrob(bottom, odd, "Z", "l")
+connectGrob(odd, odd2, "N", "l")
+connectGrob(side, sub_side_left, "v", "l")
+connectGrob(side, sub_side_right, "v", "r")
+connectGrob(start, exclude, "-", 
+            lty_gp = gpar(lwd=2, col="darkred", fill="darkred"))
+
+# Print the grobs
+start
+bottom
+side
+exclude
+sub_side_left
+sub_side_right
+odd
+odd2
+
+```
+
+```{r OrgChart, echo=FALSE, warning=FALSE}
+
+## library(DiagrammeR)
+
+## DiagrammeR("graph TB;
+##    A(Rounded)-->B[Squared];
+##    B---C{Rhombus!};
+##    C-->D>flag shape];
+##    C-->E((Circle));")
+
+
+```
+
+
+Additional roles can be assigned on an as neded (e.g., project-by-project) basis. The primary responsibilities of these position holders is presented below. Note that elected officers and program managers always function as team leads - they are ultimately responsible for the listed information, but they are expected to execute tasks within teams:
+
+<center>
+![](images/eagleioroles.PNG)
+</center> 
