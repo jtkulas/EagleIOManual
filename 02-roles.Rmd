@@ -91,6 +91,31 @@ kable(together, col.names = c("Faculty\nAdvisor",
 
 ```
 
+This is a placeholder chart intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated, but all of these numbers are mere esitmates.
+
+```{r FunkyInteractiveChart, include=TRUE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
+## library(DiagrammeR)
+## DiagrammeR("graph TB;
+##    A(Rounded)-->B[Squared];
+##    B---C{Rhombus!};
+##    C-->D>flag shape];
+##    C-->E((Circle));")
+### Trying with Eagle I.O
+m <- matrix(c(0, 10, 8, 1, 10, 1,
+              10, 0, 5, 5, 2,  3,     
+              3,  3, 0, 3, 7,  5,  
+              3,  5, 6, 0, 0,  6,     
+              10, 5, 5, 0, 0,  1,   
+              7, 10, 3, 1, 1,  0),              
+            byrow = TRUE,
+            nrow = 6, ncol = 6)
+contact <- c("Faculty", "Governance", "Marketing", "Mentorship", "Engagement", "Parliment")
+dimnames(m) <- list(plans = contact,
+                    executes = contact)
+library(chorddiag)
+groupColors <- c("#000000", "#FFDD89", "#957244", "#FF0000", "#8B0000", "#FF8C00")
+chorddiag(m, groupColors = groupColors, showTicks = F, groupnamePadding = 20, groupnameFontsize = 12)
+```
 
 ## Role conflict
 
