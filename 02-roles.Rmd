@@ -19,10 +19,10 @@ rightx <- .9
 gp <- gpar(fill = "cornflowerblue")
 # create boxes
 (total <- boxGrob("Faculty\n Advisor", 
- x=facx, y=.9, box_gp = gp))
+ x=facx, y=.6, box_gp = gp, height=.15))
 
 (rando <- boxGrob("Governance\n Officer", 
- x=midx, y=.9, box_gp = gp))
+ x=midx, y=.6, box_gp = gp, height=.15))
 # connect boxes like this
 connectGrob(total, rando, "h")
 

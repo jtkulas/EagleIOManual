@@ -1,0 +1,62 @@
+# Succession Planning
+
+> Is this just "coming to meetings"?
+
+## Framework:  
+
++ Lens to get new mentees
++ Recruitment and selection
+    + Marketing Officer responsible for sending out flyers about recruitment
+    + When student wants to join outside of recruitment stage
+        + Case should be discussed with all current members of Eagle I.O
++ All members identify possible Eagle IO members 
++ Criteria: 
+    + GPA
+    + Organizational Citizenship Behavior (OCB's) and Counterproductive Work Behaviors (CWB's)
+    + Involvement in Mentorship program
+    + Involvement in attending events
+    + Completed at least one semestre of the MSU I/O program
+        + For both Masters' and PhD students
+
+>  Note. I think we should add a section about a new member application. This section would highlight an application we create on qualtrics and our selection process for choosing the best EagleIO members
+
+> Additional question - What is the plan for Ph.D. students and succession or holding a position? I believe we should discuss this with the full group
+
+## Selection into formal roles:
+
++ New members nominate themselves and/or others for roles
++ Faculty member considers all nominations and makes final decision
++ Roles can be own by one member, or can be co-owned (should be determine with the amount of projects/responsibilities the role holds)
++ Role assignments will be discussed after first years have shadowed for a semester (shadowing occurs Spring semester)
+    + Shadowing = come to meetings
+
+## Resignment and reassignment
+
++ Member are allowed to step down at any time
+    + Including members holding specific titles
++ If member with title steps down, role must be reassigned effectively
+    + Members nominate themselves/other
+    + Faculty Advisor makes final decision
++ If member does not fulfill responsibilities of their role
+    + Members should discuss issues together
+    + Member should be given a timeline to pick up responsibilities
+    + If member is unable to fulfill responsibilities, faculty advisor strips title and reassigns role
+
+
+```{r echo=FALSE, warning=FALSE, results='asis', message=FALSE}
+
+library(knitr)
+library(tidyverse)
+
+events <- read.csv("onboard.csv")
+
+kable(events, "html", booktabs = T) %>%
+  kable_styling(full_width = F) %>%
+  column_spec(2, width = "6cm")
+
+# events %>%
+#  kable() %>%
+#  kable_styling(fixed_thead = T)
+
+```
+

@@ -7,26 +7,28 @@ htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height
 
 ## Meetings
 
-Members are expected to participate for 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks)
+All members are expected to participate for a minimum of 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks). 
 
 * Time requirements of Eagle IO members 
     + Meetings are mandatory - there is one excused absence per academic year (Fall and Spring)
         + If you miss *more than one* meeting, and cannot call or make other arrangements for your virtual attendence, you will be put on probation (1 semester term) 
-        + If you miss another meeting while on probation you will be expelled from Eagle IO and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful cerimony
-    + Keep track of the inbox *if you are Communications Officer*
+        + If you miss another meeting while on probation you will be expelled from Eagle IO and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
+    + Keep track of the inbox *if you are the Parlimentarian*
 
 ## [Mentorship Program Management](https://bookdown.org/kulasj/mentoruser/)
 * How to match mentors and mentees 
     + Revisit the method used to match and whether other factors should be considered.
     + Form a survey team to create a qualtrics survey and do the matching process
     + Work to match along 5 dimensions: 
-        1. name
+        1. area of professional interest
         2. hometown
         3. undergrad major/minor
         4. part/full time, 
         5. academic/applied 
-* Duration or partnership between mentee and mentor (semester or annual)
-    + Mandatory to keep them mentor/mentee partnership for a semester
+* Duration or partnership between mentee and mentor
+    + The minimum mandatory term for each mentor/mentee partnership is one academic year (Fall through Spring)
+
+> do we have mentorship program plans for Spring admits?
         
 * Involvement of professors in mentor program beyond Dr. Kulas and Dr. Dan
     + Meetings between mentors and mentees at least 3 
