@@ -1,4 +1,4 @@
-# Overview of Projects
+# Governance {#govern}
 
 ```{r kitty2, echo=FALSE, warning=FALSE}
 htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
@@ -9,16 +9,16 @@ htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height
 
 All members are expected to participate for a minimum of 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks). 
 
-* Time requirements of Eagle IO members 
-    + Meetings are mandatory - there is one excused absence per academic year (Fall and Spring)
+* Time requirements of Eagle I.O members 
+    + Meetings are mandatory - there is one excused absence per academic semester (Fall and Spring)
         + If you miss *more than one* meeting, and cannot call or make other arrangements for your virtual attendence, you will be put on probation (1 semester term) 
-        + If you miss another meeting while on probation you will be expelled from Eagle IO and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
+        + If you miss another meeting while on probation you will be expelled from Eagle I.O and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
     + Keep track of the inbox *if you are the Parlimentarian*
 
 ## [Mentorship Program Management](https://bookdown.org/kulasj/mentoruser/)
 * How to match mentors and mentees 
-    + Revisit the method used to match and whether other factors should be considered.
-    + Form a survey team to create a qualtrics survey and do the matching process
+    + Revisit the method used to match and whether other factors should be considered
+    + Form a survey team to create a qualtrics survey and perform the matching process
     + Work to match along 5 dimensions: 
         1. area of professional interest
         2. hometown
@@ -31,13 +31,13 @@ All members are expected to participate for a minimum of 1.5 years (one Fall sem
 > do we have mentorship program plans for Spring admits?
         
 * Involvement of professors in mentor program beyond Dr. Kulas and Dr. Dan
-    + Meetings between mentors and mentees at least 3 
+    + Minimum of 3 meetings between mentors and mentees: 
         + Meeting 1: Individual Development Plan
         + Meeting 2: I/O related event
         + Meeting 3: formal/informal event 
 
 ## Consultant Development Plan 
-* Either have each consultant discuss and fill out their own individual development plan in terms of Eagle I.O. or have a development (filled out together) for the organization
+* Either have each consultant discuss and fill out their own individual development plan in terms of Eagle I.O or have a development plan (filled out together) for the organization
     + Potential skills: professional, technical, or R-related skills
     + Meet with Kulas in *April of 1st year* to determine personal consultant goal that will be accomplished prior to graduation (in roughly 1 year)
 

@@ -9,7 +9,7 @@
     + Marketing Officer responsible for sending out flyers about recruitment
     + When student wants to join outside of recruitment stage
         + Case should be discussed with all current members of Eagle I.O
-+ All members identify possible Eagle IO members 
++ All members identify possible Eagle I.O members 
 + Criteria: 
     + GPA
     + Organizational Citizenship Behavior (OCB's) and Counterproductive Work Behaviors (CWB's)
@@ -27,8 +27,8 @@
 + New members nominate themselves and/or others for roles
 + Faculty member considers all nominations and makes final decision
 + Roles can be own by one member, or can be co-owned (should be determine with the amount of projects/responsibilities the role holds)
-+ Role assignments will be discussed after first years have shadowed for a semester (shadowing occurs Spring semester)
-    + Shadowing = come to meetings
++ Role assignments will be discussed after the first-year students have shadowed for a semester (shadowing occurs during the Spring semester)
+    + Shadowing = attending meetings
 
 ## Resignment and reassignment
 

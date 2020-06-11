@@ -18,7 +18,7 @@ description: "This is the student consultant handbook for members of Eagle I.O. 
 ![](images/eagleio.PNG)
 </center> 
 
-This is the student consultant handbook for members of Eagle I.O. Herein lie expectations, responsibilities, and strategy to keep Eagle I.O sustailable with future [Montclair State University I/O Psychology](https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/) cohorts...
+This is the student consultant handbook for members of Eagle I.O. Herein lie expectations, responsibilities, and strategy to keep Eagle I.O sustainable with future [Montclair State University I/O Psychology](https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/) cohorts...
 
 
 # Introduction
@@ -27,11 +27,11 @@ This is the participation manual for Eagle I.O student consultants. It contains 
 
 > The vision and mission of Eagle I.O are...
 
-+ As of Spring semester 2020, the ongoing projects that Eagle I.O manages include: 
++ As of the Spring 2020 semester, the ongoing projects that Eagle I.O manages include: 
     1) a [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ year and returning MSU I.O Masters' and PhD program students, 
     2) an engagement survey, and 
     3) this student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
-+ Future aspirations are to have Eagle I.O. be a client-facing organization that can provide student-led solutions to external clients
++ Future aspirations are to have Eagle I.O be a client-facing organization that can provide student-led solutions to external clients
 
 
 ```{r include=FALSE}

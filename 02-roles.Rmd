@@ -1,4 +1,4 @@
-# Roles and Responsibilities
+# Roles and Responsibilities {#roles}
 
 As of Spring Semester 2020, the organizational structure of Eagle I.O is:
 
@@ -68,11 +68,11 @@ Additional roles can be assigned on an as neded (e.g., project-by-project) basis
 
 fac <- c("Long-term visioning (5-year plan)","Annual goal-setting and monitoring (projects, clients, research)","Budgeting and staffing", "")
 
-govern <- c("Meet with advisor to create bi-weekly agenda ","Ensure group dynamic is working ","Lead bi-weekly meetings","Groupme coordinator")
+govern <- c("Meet with advisor to create bi-weekly agenda ","Ensure group dynamic is working ","Lead bi-weekly meetings","GroupMe coordinator")
 
-market <- c("Create and keep web page updated","Maintain alumni relations and contact information ","Maintain and update flyer for promotion of group","Coordinate logistics of annual events (orientation, mid year soiree, SIOP, etc)")
+market <- c("Create and keep web page updated","Maintain alumni relations and contact information ","Maintain and update flyer for promotion of group","Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc.)")
 
-engage <- c("Administration, scoring, and reporting","Norms development and maintenance","Ongoing validation studies and technical report generation","Delegating project related tasks to others")
+engage <- c("Administration, scoring, and reporting","Norms development and maintenance","Ongoing validation studies and technical report generation","Delegating project-related tasks to others")
 
 mentor <- c("Keep track of mentor-mentee communications","Ensure all incoming first year students have a mentor (pairing process)","Update calendar of activities and communicate with program participants","Keep track of mentors and mentees - Holding them accountable for meetings and communication")
 
@@ -91,6 +91,31 @@ kable(together, col.names = c("Faculty\nAdvisor",
 
 ```
 
+This is a placeholder chart intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated, but all of these numbers are mere esitmates.
+
+```{r FunkyInteractiveChart, include=FALSE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
+## library(DiagrammeR)
+## DiagrammeR("graph TB;
+##    A(Rounded)-->B[Squared];
+##    B---C{Rhombus!};
+##    C-->D>flag shape];
+##    C-->E((Circle));")
+### Trying with Eagle I.O
+m <- matrix(c(0, 10, 8, 1, 10, 1,
+              10, 0, 5, 5, 2,  3,     
+              3,  3, 0, 3, 7,  5,  
+              3,  5, 6, 0, 0,  6,     
+              10, 5, 5, 0, 0,  1,   
+              7, 10, 3, 1, 1,  0),              
+            byrow = TRUE,
+            nrow = 6, ncol = 6)
+contact <- c("Faculty", "Governance", "Marketing", "Mentorship", "Engagement", "Parliment")
+dimnames(m) <- list(plans = contact,
+                    executes = contact)
+library(chorddiag)
+groupColors <- c("#000000", "#FFDD89", "#957244", "#FF0000", "#8B0000", "#FF8C00")
+chorddiag(m, groupColors = groupColors, showTicks = F, groupnamePadding = 20, groupnameFontsize = 12)
+```
 
 ## Role conflict
 
