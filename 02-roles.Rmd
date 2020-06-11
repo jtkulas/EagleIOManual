@@ -1,11 +1,6 @@
-# Responsibilities
+# Roles and Responsibilities
 
 As of Spring Semester 2020, the organizational structure of Eagle I.O is:
-
-<center>
-![](images/orgchart.PNG)
-</center> 
-
 
 ```{r trying, echo=FALSE, warning=FALSE, message=FALSE}
 
@@ -13,64 +8,42 @@ library(grid)
 library(Gmisc)
 
 grid.newpage()
+# set some parameters to use repeatedly
+facx <- .2
+midx <- .5
+leftx <- .1
+leftm <- .35
+rightm <- .65
+rightx <- .9
 
-# Initiate the boxes that we want to connect
-side <- boxPropGrob("Side", "Left", "Right", 
-                    prop=.3, 
-                    x=0, y=.9,
-                    bjust = c(0,1))
-start <- boxGrob("Top", 
-                 x=.6, y=coords(side)$y, 
-                 box_gp = gpar(fill = "yellow"))
-bottom <- boxGrob("Bottom", x=.6, y=0, 
-                  bjust="bottom")
+gp <- gpar(fill = "cornflowerblue")
+# create boxes
+(total <- boxGrob("Faculty\n Advisor", 
+ x=facx, y=.9, box_gp = gp))
+
+(rando <- boxGrob("Governance\n Officer", 
+ x=midx, y=.9, box_gp = gp))
+# connect boxes like this
+connectGrob(total, rando, "h")
+
+(g1 <- boxGrob("Marketing\n Officer", 
+ x=leftx, y=.3, box_gp = gp, height=.15))    ## using "height" to help with forced breaks
+
+(g2 <- boxGrob("Mentorship\n Coordinator", 
+ x=leftm, y=.3, box_gp = gp, height=.15))
 
 
-sub_side_left <- boxGrob("Left", 
-                         x = coords(side)$left_x, 
-                         y = 0,
-                         bjust = "bottom")
-sub_side_right <- boxGrob("Right", 
-                          x = coords(side)$right_x, 
-                          y = 0,
-                          bjust = "bottom")
 
-odd <- boxGrob("Odd\nbox", 
-               x=coords(side)$right, 
-               y=.5)
+(g3 <- boxGrob("Engagement\n Officer", 
+ x=rightm, y=.3, box_gp = gp, height=.15))
 
-odd2 <- boxGrob("Also odd", 
-               x=coords(odd)$right + 
-                 distance(bottom, odd, type="h", half=TRUE) -
-                 unit(2, "mm"), 
-               y=0,
-               bjust = c(1,0))
+(g4 <- boxGrob("Parlimentarian", 
+ x=rightx, y=.3, box_gp = gp, height=.15))
 
-exclude <- boxGrob("Exclude:\n - Too sick\n - Prev. surgery", 
-                   x=1, y=coords(bottom)$top + 
-                     distance(start, bottom, 
-                              type="v", half=TRUE), 
-                   just="left", bjust = "right")
-
-# Connect the boxes and print/plot them
-connectGrob(start, bottom, "vertical")
-connectGrob(start, side, "horizontal")
-connectGrob(bottom, odd, "Z", "l")
-connectGrob(odd, odd2, "N", "l")
-connectGrob(side, sub_side_left, "v", "l")
-connectGrob(side, sub_side_right, "v", "r")
-connectGrob(start, exclude, "-", 
-            lty_gp = gpar(lwd=2, col="darkred", fill="darkred"))
-
-# Print the grobs
-start
-bottom
-side
-exclude
-sub_side_left
-sub_side_right
-odd
-odd2
+connectGrob(rando, g1, "N")
+connectGrob(rando, g2, "N")
+connectGrob(rando, g3, "N")
+connectGrob(rando, g4, "N")
 
 ```
 
@@ -90,6 +63,35 @@ odd2
 
 Additional roles can be assigned on an as neded (e.g., project-by-project) basis. The primary responsibilities of these position holders is presented below. Note that elected officers and program managers always function as team leads - they are ultimately responsible for the listed information, but they are expected to execute tasks within teams:
 
-<center>
-![](images/eagleioroles.PNG)
-</center> 
+
+```{r roles, echo=FALSE, warning=FALSE, message=FALSE}
+
+fac <- c("Long-term visioning (5-year plan)","Annual goal-setting and monitoring (projects, clients, research)","Budgeting and staffing", "")
+
+govern <- c("Meet with advisor to create bi-weekly agenda ","Ensure group dynamic is working ","Lead bi-weekly meetings","Groupme coordinator")
+
+market <- c("Create and keep web page updated","Maintain alumni relations and contact information ","Maintain and update flyer for promotion of group","Coordinate logistics of annual events (orientation, mid year soiree, SIOP, etc)")
+
+engage <- c("Administration, scoring, and reporting","Norms development and maintenance","Ongoing validation studies and technical report generation","Delegating project related tasks to others")
+
+mentor <- c("Keep track of mentor-mentee communications","Ensure all incoming first year students have a mentor (pairing process)","Update calendar of activities and communicate with program participants","Keep track of mentors and mentees - Holding them accountable for meetings and communication")
+
+parl <- c("Seek out and follow-up on project leads","Check Eagle IO email and communicate","Take notes during meetings and uploading to share drive","Keep track of the agenda during meetings")
+
+together <- as.data.frame(cbind(fac, govern,market,engage,mentor,parl))
+
+library(kableExtra)
+
+kable(together, col.names = c("Faculty\nAdvisor",
+                           "Governance\nOfficer",
+                           "Marketing\nOfficer",
+                           "Engagement\nCoordinator",
+                           "Mentorship\nCoordinator",
+                           "Parlimentarian"))
+
+```
+
+
+## Role conflict
+
+> There would need to be a section to deal with "conflict between individuals" because it's only a matter of time

@@ -1,11 +1,14 @@
-# Governance
+# Overview of Projects
 
 ```{r kitty2, echo=FALSE, warning=FALSE}
-htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=480, width=480)
+htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
 ```
 
 
 ## Meetings
+
+Members are expected to participate for 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks)
+
 * Time requirements of Eagle IO members 
     + Meetings are mandatory - there is one excused absence per academic year (Fall and Spring)
         + If you miss *more than one* meeting, and cannot call or make other arrangements for your virtual attendence, you will be put on probation (1 semester term) 
@@ -36,8 +39,11 @@ htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height
     + Potential skills: professional, technical, or R-related skills
     + Meet with Kulas in *April of 1st year* to determine personal consultant goal that will be accomplished prior to graduation (in roughly 1 year)
 
+> The development plan - maybe you could provide some insights on these.
 
 ## What to do for *Legitimacy*
+
+> Legitimacy - like the development plan I'm not too sure we all know much about what this will entail. Probably would require more details about this from you. 
 
 If at some point Eagle I.O wishes to integrate within the broader MSU infrastructure, there are templates for doing so that exist at other Universities. Here is one recommended set of steps taken from the University of Texas:
 
