@@ -5,7 +5,7 @@ htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height
 ```
 
 
-## Meetings
+## Meetings - testing
 
 All members are expected to participate for a minimum of 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks). 
 
