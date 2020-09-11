@@ -1,9 +1,8 @@
-# Governance {#govern}
+# Governance {#governance}
 
-```{r kitty2, echo=FALSE, warning=FALSE}
+```{r kitty3, echo=FALSE, warning=FALSE}
 htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
 ```
-
 
 ## Meetings - testing
 
@@ -15,47 +14,149 @@ All members are expected to participate for a minimum of 1.5 years (one Fall sem
         + If you miss another meeting while on probation you will be expelled from Eagle I.O and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
     + Keep track of the inbox *if you are the Parlimentarian*
 
-## [Mentorship Program Management](https://bookdown.org/kulasj/mentoruser/)
-* How to match mentors and mentees 
-    + Revisit the method used to match and whether other factors should be considered
-    + Form a survey team to create a qualtrics survey and perform the matching process
-    + Work to match along 5 dimensions: 
-        1. area of professional interest
-        2. hometown
-        3. undergrad major/minor
-        4. part/full time, 
-        5. academic/applied 
-* Duration or partnership between mentee and mentor
-    + The minimum mandatory term for each mentor/mentee partnership is one academic year (Fall through Spring)
-
-> do we have mentorship program plans for Spring admits?
-        
-* Involvement of professors in mentor program beyond Dr. Kulas and Dr. Dan
-    + Minimum of 3 meetings between mentors and mentees: 
-        + Meeting 1: Individual Development Plan
-        + Meeting 2: I/O related event
-        + Meeting 3: formal/informal event 
-
 ## Consultant Development Plan 
+
 * Either have each consultant discuss and fill out their own individual development plan in terms of Eagle I.O or have a development plan (filled out together) for the organization
     + Potential skills: professional, technical, or R-related skills
     + Meet with Kulas in *April of 1st year* to determine personal consultant goal that will be accomplished prior to graduation (in roughly 1 year)
 
 > The development plan - maybe you could provide some insights on these.
 
-## What to do for *Legitimacy*
+## Structure
 
-> Legitimacy - like the development plan I'm not too sure we all know much about what this will entail. Probably would require more details about this from you. 
+As of Spring Semester 2020, the formal roles of Eagle I.O are:
 
-If at some point Eagle I.O wishes to integrate within the broader MSU infrastructure, there are templates for doing so that exist at other Universities. Here is one recommended set of steps taken from the University of Texas:
++ Faculty roles
+        + Advisor (primary)
+        + Advisor (mentorship)
 
-Share the Organization’s Structure: All students are required to write and submit a constitution. [See Chapter Two for sample constitution](https://www.utdallas.edu/soc/manual/04/#leadership)
++ Student roles
+        + Governance officer
+        + Mentorship officer
+        + Engagement officer
+        + Marketing officer
+        + Web officer
+        + Parlimentarian 
+        + R guru
 
-+ Constitution and by-laws
-+ Job descriptions/role classifications
-+ Organizational goals and objectives
-+ Status reports on ongoing projects
-+ Evaluation of previous projects and programs
-+ Resources and contact lists
-+ Mailing lists
-+ Historical records, scrapbooks, and equipment
+The following chart is intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated, but all of these numbers are mere esitmates.
+
+```{r FunkyInteractiveChart, include=TRUE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
+
+## Add three roles: Faculty Mentorship Advisor, Web Officer, R Guru
+
+## library(DiagrammeR)
+## DiagrammeR("graph TB;
+##    A(Rounded)-->B[Squared];
+##    B---C{Rhombus!};
+##    C-->D>flag shape];
+##    C-->E((Circle));")
+### Trying with Eagle I.O
+m <- matrix(c(0, 10, 8, 1, 10, 1, 1, 5, 5,
+              10, 0, 5, 5, 2,  3, 2, 4, 4,    
+              3,  3, 0, 3, 7,  5, 3, 3, 3,
+              3,  5, 6, 0, 0,  6, 4, 2, 2,    
+              10, 5, 5, 0, 0,  1, 5, 1, 1, 
+              7, 10, 3, 1, 1,  0, 6, 1, 1,
+              1,  2, 3, 4, 5,  6, 7, 1, 1,
+              1,  2, 3, 4, 5,  6, 7, 8, 9,
+              1,  2, 3, 4, 5,  6, 7, 8, 9),              
+            byrow = TRUE,
+            nrow = 9, ncol = 9)
+
+contact <- c("Faculty", "Governance", "Marketing", "Mentorship", "Engagement", "Parliment", "R", "Web", "Faculty2")
+
+dimnames(m) <- list(plans = contact,
+                    executes = contact)
+
+library(chorddiag)
+
+groupColors <- c("#000000", "#FFDD89", "#957244", "#FF0000", "#8B0000", "#FF8C00", "#FF0000")
+
+chorddiag(m, showTicks = F, groupnamePadding = 20, groupnameFontsize = 12)
+
+## groupColors = groupColors, 
+
+```
+
+```{r trying, echo=FALSE, warning=FALSE, message=FALSE, include=FALSE}
+
+library(grid)
+library(Gmisc)
+
+## add Web 
+
+grid.newpage()
+# set some parameters to use repeatedly
+facx <- .2
+midx <- .5
+leftx <- .1
+leftm <- .35
+rightm <- .65
+rightx <- .9
+
+gp <- gpar(fill = "cornflowerblue")
+# create boxes
+(total <- boxGrob("Faculty\n Advisor", 
+ x=facx, y=.6, box_gp = gp, height=.15))
+
+(rando <- boxGrob("Governance\n Officer", 
+ x=midx, y=.6, box_gp = gp, height=.15))
+# connect boxes like this
+connectGrob(total, rando, "h")
+
+(g1 <- boxGrob("Marketing\n Officer", 
+ x=leftx, y=.3, box_gp = gp, height=.15))    ## using "height" to help with forced breaks
+
+(g2 <- boxGrob("Mentorship\n Coordinator", 
+ x=leftm, y=.3, box_gp = gp, height=.15))
+
+
+
+(g3 <- boxGrob("Engagement\n Officer", 
+ x=rightm, y=.3, box_gp = gp, height=.15))
+
+(g4 <- boxGrob("Parlimentarian", 
+ x=rightx, y=.3, box_gp = gp, height=.15))
+
+connectGrob(rando, g1, "N")
+connectGrob(rando, g2, "N")
+connectGrob(rando, g3, "N")
+connectGrob(rando, g4, "N")
+
+```
+
+Additional roles can be assigned on an as neded (e.g., project-by-project) basis. The primary responsibilities of these position holders is presented below. Note that elected officers and program managers always function as team leads - they are ultimately responsible for the listed information, but they are expected to execute tasks within teams:
+
+
+```{r roles, echo=FALSE, warning=FALSE, message=FALSE}
+
+fac <- c("Long-term visioning (5-year plan)","Annual goal-setting and monitoring (projects, clients, research)","Budgeting and staffing", "")
+
+govern <- c("Meet with advisor to create bi-weekly agenda ","Ensure group dynamic is working ","Lead bi-weekly meetings","GroupMe coordinator")
+
+market <- c("Create and keep web page updated","Maintain alumni relations and contact information ","Maintain and update flyer for promotion of group","Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc.)")
+
+engage <- c("Administration, scoring, and reporting","Norms development and maintenance","Ongoing validation studies and technical report generation","Delegating project-related tasks to others")
+
+mentor <- c("Keep track of mentor-mentee communications","Ensure all incoming first year students have a mentor (pairing process)","Update calendar of activities and communicate with program participants","Keep track of mentors and mentees - Holding them accountable for meetings and communication")
+
+parl <- c("Seek out and follow-up on project leads","Check Eagle IO email and communicate","Take notes during meetings and uploading to share drive","Keep track of the agenda during meetings")
+
+together <- as.data.frame(cbind(fac, govern,market,engage,mentor,parl))
+
+library(kableExtra)
+
+kable(together, col.names = c("Faculty\nAdvisor",
+                           "Governance\nOfficer",
+                           "Marketing\nOfficer",
+                           "Engagement\nCoordinator",
+                           "Mentorship\nCoordinator",
+                           "Parlimentarian"))
+
+```
+
+
+## Role conflict
+
+> There would need to be a section to deal with "conflict between individuals" because it's only a matter of time

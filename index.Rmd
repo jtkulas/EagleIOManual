@@ -9,13 +9,14 @@ cover-image: "images/eagleio.PNG"
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
+toc-depth: 1
 description: "This is the student consultant handbook for members of Eagle I.O. The output format for this example is bookdown::gitbook."
 ---
 
 # Homepage {-#homepage} 
 
 <center>
-![](images/eagleio.PNG)
+![](images/eagleio2.PNG)
 </center> 
 
 This is the student consultant handbook for members of Eagle I.O. Herein lie expectations, responsibilities, and strategy to keep Eagle I.O sustainable with future [Montclair State University I/O Psychology](https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/) cohorts...
@@ -23,15 +24,25 @@ This is the student consultant handbook for members of Eagle I.O. Herein lie exp
 
 # Introduction
 
-This is the participation manual for Eagle I.O student consultants. It contains the expectations, roles, and responsibilities of MSU graduate students who are *also* members of Eagle I.O.
+![](images/intro.PNG)
 
-> The vision and mission of Eagle I.O are...
+**About us**:
 
-+ As of the Spring 2020 semester, the ongoing projects that Eagle I.O manages include: 
-    1) a [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ year and returning MSU I.O Masters' and PhD program students, 
-    2) an engagement survey, and 
-    3) this student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
-+ Future aspirations are to have Eagle I.O be a client-facing organization that can provide student-led solutions to external clients
+We are a student-led consulting group within the Industrial/Organizational Psychology program at Montclair State University, founded in 2019. We look at ourselves as hard-working, driven students who wish to strengthen MSU's I/O Psychology program, as well as learn outside of the classroom to build upon our skills and knowledge.  We pride ourselves with strong involvement in other I/O groups locally and nationally - METRO and SIOP.
+
+**What we do**:
+
+We are responsible for executing various projects. Our main project is developing an Engagement survey, which we wish to distribute to external organizations. We also run a  mentorship program within the MSU I/O program, where we train most of the 2nd year graduate students to guide the new students into becoming successful students themselves. Additionally, we host a variety of events, such as new student orientation,  networking opportunities, and casual hangouts.
+
+As of the Spring 2020 semester, the ongoing projects that Eagle I.O manages include: 
+
++ a [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ year and returning MSU I.O Masters' and PhD program students, 
+
++ an engagement survey, and 
+
++ this student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
+
+Future aspirations are to have Eagle I.O be a client-facing organization that can provide student-led solutions to external clients
 
 
 ```{r include=FALSE}

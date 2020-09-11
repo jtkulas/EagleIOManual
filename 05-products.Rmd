@@ -1,0 +1,24 @@
+# Products {#products}
+
+![](images/product.PNG)
+
+## [Mentorship Program Management](https://bookdown.org/kulasj/mentoruser/)
+* How to match mentors and mentees 
+    + Revisit the method used to match and whether other factors should be considered
+    + Form a survey team to create a qualtrics survey and perform the matching process
+    + Work to match along 5 dimensions: 
+        1. area of professional interest
+        2. hometown
+        3. undergrad major/minor
+        4. part/full time, 
+        5. academic/applied 
+* Duration or partnership between mentee and mentor
+    + The minimum mandatory term for each mentor/mentee partnership is one academic year (Fall through Spring)
+
+> do we have mentorship program plans for Spring admits?
+        
+* Involvement of professors in mentor program beyond Dr. Kulas and Dr. Dan
+    + Minimum of 3 meetings between mentors and mentees: 
+        + Meeting 1: Individual Development Plan
+        + Meeting 2: I/O related event
+        + Meeting 3: formal/informal event 
