@@ -68,9 +68,10 @@ Currently Eagle I.O is limited to a maximum student size of 10.
 
 If the current occupancy of Eagle I.O is less than 10, then there is a process to join:
 
-Requirements: 
-+ 1 semester of enrollment within the MSU I/O Psychology program
-+ 3.8 GPA
-+ persistent and annoying interest
+Requirements:  
+
+* 1 semester of enrollment within the MSU I/O Psychology program
+* 3.8 GPA
+* persistent and annoying interest
 
 >Also, any Eagle I.O project is permitted to include the broader MSU I/O Psychology graduate student pool (if someone is interested in participating in projects but either is unable to join or Eagle I.O is currently "full")

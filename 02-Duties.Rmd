@@ -14,7 +14,7 @@ Masters' student consultants are expected to serve 1.5 years. PhD student consul
 + Contribute to at least one Eagle I.O project
 + Annually review (and update if warranted) the Mentorship and Consultant manuals
 + Must participate as a mentor in the Mentorship program
-+ **For those in formal roles:**
++ For those in formal [roles](#roles):
     + Successfully execute the responsibilities of the assigned role
     + Keep track of the inbox if you are the **Parlimentarian**
 

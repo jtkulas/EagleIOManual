@@ -1,10 +1,8 @@
 # Governance {#governance}
 
-```{r kitty3, echo=FALSE, warning=FALSE}
-htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
-```
+![](images/governance.png)
 
-## Meetings - testing
+## Meetings
 
 All members are expected to participate for a minimum of 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks). 
 
@@ -14,6 +12,10 @@ All members are expected to participate for a minimum of 1.5 years (one Fall sem
         + If you miss another meeting while on probation you will be expelled from Eagle I.O and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
     + Keep track of the inbox *if you are the Parlimentarian*
 
+```{r kitty3, echo=FALSE, warning=FALSE}
+htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
+```
+
 ## Consultant Development Plan 
 
 * Either have each consultant discuss and fill out their own individual development plan in terms of Eagle I.O or have a development plan (filled out together) for the organization
@@ -22,22 +24,23 @@ All members are expected to participate for a minimum of 1.5 years (one Fall sem
 
 > The development plan - maybe you could provide some insights on these.
 
-## Structure
+## Structure {#roles}
 
 As of Spring Semester 2020, the formal roles of Eagle I.O are:
 
-+ Faculty roles
-        + Advisor (primary)
-        + Advisor (mentorship)
+* Faculty roles:
+    + Advisor (primary)
+    + Advisor (mentorship)  
+    
 
-+ Student roles
-        + Governance officer
-        + Mentorship officer
-        + Engagement officer
-        + Marketing officer
-        + Web officer
-        + Parlimentarian 
-        + R guru
+* Student roles:
+    + Governance officer
+    + Mentorship officer
+    + Engagement officer
+    + Marketing officer
+    + Web officer
+    + Parlimentarian 
+    + R guru
 
 The following chart is intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated, but all of these numbers are mere esitmates.
 
@@ -52,15 +55,15 @@ The following chart is intended to estimate the amount of reliance of each role 
 ##    C-->D>flag shape];
 ##    C-->E((Circle));")
 ### Trying with Eagle I.O
-m <- matrix(c(0, 10, 8, 1, 10, 1, 1, 5, 5,
-              10, 0, 5, 5, 2,  3, 2, 4, 4,    
-              3,  3, 0, 3, 7,  5, 3, 3, 3,
-              3,  5, 6, 0, 0,  6, 4, 2, 2,    
-              10, 5, 5, 0, 0,  1, 5, 1, 1, 
-              7, 10, 3, 1, 1,  0, 6, 1, 1,
-              1,  2, 3, 4, 5,  6, 7, 1, 1,
-              1,  2, 3, 4, 5,  6, 7, 8, 9,
-              1,  2, 3, 4, 5,  6, 7, 8, 9),              
+m <- matrix(c(0, 10, 5, 5, 10, 1, 0, 10,10,
+              10, 0, 5, 5, 5,  0, 0, 2, 5,    
+              5,  5, 0, 1, 3,  1, 5, 5, 0,
+              5,  5, 1, 0, 0,  1, 7, 2,10,    
+              10, 5, 3, 0, 0,  1, 5, 1, 0, 
+              5,  0, 1, 1, 1,  0, 0, 1, 0,
+              0,  0, 5, 7, 5,  0, 0, 5, 0,
+              10, 2, 5, 2, 5,  6, 5, 0, 0,
+              10, 5, 0,10, 0,  0, 0, 0, 0),              
             byrow = TRUE,
             nrow = 9, ncol = 9)
 
@@ -70,8 +73,6 @@ dimnames(m) <- list(plans = contact,
                     executes = contact)
 
 library(chorddiag)
-
-groupColors <- c("#000000", "#FFDD89", "#957244", "#FF0000", "#8B0000", "#FF8C00", "#FF0000")
 
 chorddiag(m, showTicks = F, groupnamePadding = 20, groupnameFontsize = 12)
 
@@ -131,28 +132,31 @@ Additional roles can be assigned on an as neded (e.g., project-by-project) basis
 
 ```{r roles, echo=FALSE, warning=FALSE, message=FALSE}
 
-fac <- c("Long-term visioning (5-year plan)","Annual goal-setting and monitoring (projects, clients, research)","Budgeting and staffing", "")
 
-govern <- c("Meet with advisor to create bi-weekly agenda ","Ensure group dynamic is working ","Lead bi-weekly meetings","GroupMe coordinator")
-
-market <- c("Create and keep web page updated","Maintain alumni relations and contact information ","Maintain and update flyer for promotion of group","Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc.)")
-
-engage <- c("Administration, scoring, and reporting","Norms development and maintenance","Ongoing validation studies and technical report generation","Delegating project-related tasks to others")
-
-mentor <- c("Keep track of mentor-mentee communications","Ensure all incoming first year students have a mentor (pairing process)","Update calendar of activities and communicate with program participants","Keep track of mentors and mentees - Holding them accountable for meetings and communication")
-
-parl <- c("Seek out and follow-up on project leads","Check Eagle IO email and communicate","Take notes during meetings and uploading to share drive","Keep track of the agenda during meetings")
-
-together <- as.data.frame(cbind(fac, govern,market,engage,mentor,parl))
+together <- read.csv("temp.csv")
 
 library(kableExtra)
 
-kable(together, col.names = c("Faculty\nAdvisor",
-                           "Governance\nOfficer",
-                           "Marketing\nOfficer",
-                           "Engagement\nCoordinator",
-                           "Mentorship\nCoordinator",
-                           "Parlimentarian"))
+## kable(together, col.names = c("Faculty\nAdvisor",
+#                           "Governance\nOfficer",
+#                           "Marketing\nOfficer",
+#                           "Engagement\nCoordinator",
+#                           "Mentorship\nCoordinator",
+#                           "Parlimentarian"))
+
+names(together)[1]<-""
+names(together)[2]<-""
+names(together)[3]<-""
+names(together)[4]<-""
+names(together)[5]<-""
+
+
+kable(together) %>%
+  add_header_above(c("Role" = 1, "Responsibilities" = 4)) %>%
+  column_spec(2, width = "70em") %>%
+  column_spec(3, width = "70em") %>%
+  column_spec(4, width = "70em") %>%
+  column_spec(5, width = "70em")
 
 ```
 

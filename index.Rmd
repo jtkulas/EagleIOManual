@@ -9,7 +9,7 @@ cover-image: "images/eagleio.PNG"
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-toc-depth: 1
+toc-depth: 4
 description: "This is the student consultant handbook for members of Eagle I.O. The output format for this example is bookdown::gitbook."
 ---
 
@@ -28,7 +28,7 @@ This is the student consultant handbook for members of Eagle I.O. Herein lie exp
 
 **About us**:
 
-We are a student-led consulting group within the Industrial/Organizational Psychology program at Montclair State University, founded in 2019. We look at ourselves as hard-working, driven students who wish to strengthen MSU's I/O Psychology program, as well as learn outside of the classroom to build upon our skills and knowledge.  We pride ourselves with strong involvement in other I/O groups locally and nationally - METRO and SIOP.
+We are a student-led consulting group within the Industrial/Organizational Psychology program at Montclair State University, founded in 2019. We look at ourselves as hard-working, driven students who wish to strengthen MSU's I/O Psychology program, as well as learn outside of the classroom to build upon our skills and knowledge.  We pride ourselves with strong involvement in other I/O groups locally and nationally - [METRO](https://metroapppsych.com/) and [SIOP](https://siop.org).
 
 **What we do**:
 
@@ -37,9 +37,7 @@ We are responsible for executing various projects. Our main project is developin
 As of the Spring 2020 semester, the ongoing projects that Eagle I.O manages include: 
 
 + a [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ year and returning MSU I.O Masters' and PhD program students, 
-
 + an engagement survey, and 
-
 + this student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
 
 Future aspirations are to have Eagle I.O be a client-facing organization that can provide student-led solutions to external clients
