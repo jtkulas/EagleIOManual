@@ -4,18 +4,20 @@
 
 ## Framework:  
 
-+ Lens to get new mentees
 + Recruitment and selection
     + Marketing Officer responsible for sending out flyers about recruitment
     + When student wants to join outside of recruitment stage
         + Case should be discussed with all current members of Eagle I.O
 + All members identify possible Eagle I.O members 
 + Criteria: 
-    + GPA
-    + Organizational Citizenship Behavior (OCB's) and Counterproductive Work Behaviors (CWB's)
+    + Current GPA
+    + Classes completed
+    + Research/projects
+    + Organizational Citizenship Behavior (OCB's) 
+        * For example, number of events/hangouts attended
     + Involvement in Mentorship program
     + Involvement in attending events
-    + Completed at least one semestre of the MSU I/O program
+    + Completed at least one semester of the MSU I/O program
         + For both Masters' and PhD students
 
 >  Note. I think we should add a section about a new member application. This section would highlight an application we create on qualtrics and our selection process for choosing the best EagleIO members
