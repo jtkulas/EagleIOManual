@@ -34,7 +34,30 @@ We are a student-led consulting group within the Industrial/Organizational Psych
 
 We are responsible for executing various projects. Our main project is developing an Engagement survey, which we wish to distribute to external organizations. We also run a  mentorship program within the MSU I/O program, where we train most of the 2nd year graduate students to guide the new students into becoming successful students themselves. Additionally, we host a variety of events, such as new student orientation,  networking opportunities, and casual hangouts.
 
-As of the Fall 2020 semester, the ongoing projects that Eagle I.O manages include: 
+```{r Date, warning=FALSE, echo=FALSE, message=FALSE}
+
+## created below code so we don't have to manually update year and date
+
+date <- as.character(Sys.Date())
+year <- as.numeric(substring(date,1,4))
+month <- substring(date,6,7)
+
+month[month == "01"] <- "Winter"
+month[month == "02"] <- "Winter"
+month[month == "03"] <- "Spring"
+month[month == "04"] <- "Spring"
+month[month == "05"] <- "Spring"
+month[month == "06"] <- "Summer"
+month[month == "07"] <- "Summer"
+month[month == "08"] <- "Fall"
+month[month == "09"] <- "Fall"
+month[month == "10"] <- "Fall"
+month[month == "11"] <- "Winter"
+month[month == "12"] <- "Winter"
+
+```
+
+As of `r month` `r year`, the ongoing projects that Eagle I.O manages include: 
 
 + a [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ years and returning MSU I/O Masters' and PhD program students, 
 + an engagement survey, and 
