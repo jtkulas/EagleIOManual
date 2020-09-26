@@ -49,10 +49,10 @@ month[month == "04"] <- "Spring"
 month[month == "05"] <- "Spring"
 month[month == "06"] <- "Summer"
 month[month == "07"] <- "Summer"
-month[month == "08"] <- "Fall"
+month[month == "08"] <- "Summer"
 month[month == "09"] <- "Fall"
 month[month == "10"] <- "Fall"
-month[month == "11"] <- "Winter"
+month[month == "11"] <- "Fall"
 month[month == "12"] <- "Winter"
 
 ```
