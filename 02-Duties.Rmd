@@ -1,8 +1,31 @@
-# Duties {#duties}
+# Membership {#duties}
 
 ![](images/duty.jpg)
 
+## Current members
+
+Attend all Eagle IO meetings unless there is a specific reason for absence, maintain a GPA greater than 3.5, actively participate in the group and the products etc. 
+
+## New members
+
+Need to attend meetings in latter half of the Spring semester, maintain a GPA > 3.5, perform OCBs in class, be involved and responsive to professors  and actively contribute to the I/O field at MSU.
+
 Masters' student consultants are expected to serve 1.5 years. PhD student consultants are expected to serve 1.5 years with an opportunity to renew participation on a year-to-year basis (or to alternatively serve as consultants to Eagle I.O if they were Masters' student Eagle I.O members) 
+
+## Opportunity for late admission [^1]
+
+What to do if someone wants in "late"?
+
+Currently Eagle I.O is limited to a maximum student size of 10.
+
+If the current occupancy of Eagle I.O is less than 10, then there is a process to join:
+
+Requirements:  
+
+* 1 semester of enrollment within the MSU I/O Psychology program
+* 3.8 GPA
+* At least 1 semester remaining in the program
+* An expressed interest
 
 ## Eagle I.O Expectations 
 + Coordinate and attend Fall semester orientation session 
@@ -16,7 +39,7 @@ Masters' student consultants are expected to serve 1.5 years. PhD student consul
 + Must participate as a mentor in the Mentorship program
 + For those in formal [roles](#roles):
     + Successfully execute the responsibilities of the assigned role
-    + Keep track of the inbox if you are the **Parliamentarian**
+    + Keep track of the inbox 
 
 ## Eagle I.O Requirements 
 + Ability to work in a team-based environment 
@@ -30,3 +53,5 @@ Masters' student consultants are expected to serve 1.5 years. PhD student consul
 + Ability to organize
 
 
+
+[^1]: If there is an interested student who is unable to join due to the group being "full" (or due to personal time constraints), they are permitted to join any mini-team within Eagle I.O.

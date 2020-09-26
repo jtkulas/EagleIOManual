@@ -16,7 +16,7 @@ description: "This is the student consultant handbook for members of Eagle I.O. 
 # Homepage {-#homepage} 
 
 <center>
-![](images/eagleio.PNG)
+![](images/eagleio dot.jpg)
 </center> 
 
 This is the student consultant handbook for members of Eagle I.O. Herein lie expectations, responsibilities, and strategy to keep Eagle I.O sustainable with future [Montclair State University I/O Psychology](https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/) cohorts...

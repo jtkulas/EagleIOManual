@@ -19,8 +19,8 @@ htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height
 
 * Either have each consultant discuss and fill out their own individual development plan in terms of Eagle I.O or have a development plan (filled out together) for the organization
     + Potential skills: professional, technical, or R-related skills
-    + Meet with Kulas in *April of 1st year* to determine personal consultant goal that will be accomplished prior to graduation (in roughly 1 year)
-    + Meet with Faculty Advisor at the end of the Fall semester to monitor goal progress
+    + Meet with the Faculty Advisor in *April of 1st year* to determine personal consultant goal that will be accomplished prior to graduation (in roughly 1 year)
+    + Meet with the Faculty Advisor at the end of the Fall semester to monitor goal progress
 
 
 

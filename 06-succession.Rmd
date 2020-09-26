@@ -20,10 +20,6 @@
     + Completed at least one semester of the MSU I/O program
         + For both Masters' and PhD students
 
->  Note. I think we should add a section about a new member application. This section would highlight an application we create on qualtrics and our selection process for choosing the best EagleIO members
-
-> Additional question - What is the plan for Ph.D. students and succession or holding a position? I believe we should discuss this with the full group
-
 ## Selection into formal roles:
 
 + New members nominate themselves and/or others for roles
@@ -62,19 +58,3 @@ kable(events, "html", booktabs = T) %>%
 
 ```
 
-## Opportunity for late admission
-
-What to do if someone wants in "late"?
-
-Currently Eagle I.O is limited to a maximum student size of 10.
-
-If the current occupancy of Eagle I.O is less than 10, then there is a process to join:
-
-Requirements:  
-
-* 1 semester of enrollment within the MSU I/O Psychology program
-* 3.8 GPA
-* At least 1 semester remaining in the program
-* An expressed interest
-
->Also, any Eagle I.O project is permitted to include the broader MSU I/O Psychology graduate student pool (if someone is interested in participating in projects but either is unable to join or Eagle I.O is currently "full")
