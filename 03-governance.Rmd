@@ -4,25 +4,21 @@
 
 ## Meetings
 
-All members are expected to participate for a minimum of 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks). 
+Regarding time expectations of Eagle I.O members:  
 
-* Time requirements of Eagle I.O members 
-    + Meetings are mandatory - there is one excused absence per academic semester (Fall and Spring)
-        + If you miss *more than one* meeting, and cannot call or make other arrangements for your virtual attendence, you will be put on probation (1 semester term) 
-        + If you miss another meeting while on probation you will be expelled from Eagle I.O and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
+* Meetings are mandatory - there is one excused absence per academic semester (Fall and Spring)
+    + If you miss *more than one* meeting, and cannot call or make other arrangements for your virtual attendence, you will be put on probation (1 semester term) 
+    + If you miss another meeting while on probation you will be expelled from Eagle I.O and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
 
 ```{r kitty3, echo=FALSE, warning=FALSE}
 htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
 ```
 
-## Consultant Development Plan 
+## [Consultant Development Plan](https://docs.google.com/document/d/13OhBJgO4Lr40uA9s3tLBTm17TNRrQa-NJnfTIbSGmT4/edit?usp=sharing) 
 
-* Either have each consultant discuss and fill out their own individual development plan in terms of Eagle I.O or have a development plan (filled out together) for the organization
-    + Potential skills: professional, technical, or R-related skills
-    + Meet with the Faculty Advisor in *April of 1st year* to determine personal consultant goal that will be accomplished prior to graduation (in roughly 1 year)
-    + Meet with the Faculty Advisor at the end of the Fall semester to monitor goal progress
+Each consultant, in collaboration with one of the faculty advisors, will complete an individual development plan that is specific to their individualized developmental goals within Eagle I.O. A template plan is available [here](https://docs.google.com/document/d/13OhBJgO4Lr40uA9s3tLBTm17TNRrQa-NJnfTIbSGmT4/edit?usp=sharing). Example skills to consider developing within Eagle I.O functions include professional, I/O content-domain specific, and/or technical (`R`-oriented) skills.
 
-
+The intent is for each student member to meet with a Faculty Advisor in *April of their 1st year of Eagle I.O participation* to determine at least one personal consultant goal that will be accomplished prior to graduation from the MSU I/O program. Each student is also expected to meet with a Faculty Advisor toward the end of the Fall semester (of their second semester of Eagle I.O participation) to monitor goal progress.
 
 ## Structure {#roles}
 
@@ -42,7 +38,7 @@ As of Spring Semester 2020, the formal roles of Eagle I.O are:
     + Parliamentarian 
     + R guru
 
-The following chart is intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated, but all of these numbers are mere estimates.
+The following chart is intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated in the figure, although all of these relationships are intended to be bidirectional.
 
 ```{r FunkyInteractiveChart, include=TRUE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
 
@@ -127,7 +123,7 @@ connectGrob(rando, g4, "N")
 
 ```
 
-Additional roles can be assigned on an as needed (e.g., project-by-project) basis. The primary responsibilities of these position holders are presented below. Note that elected officers and program managers always function as team leads - they are ultimately responsible for the listed information, but they are expected to execute tasks within teams:
+Additional roles can be assigned on an as needed (e.g., project-by-project) basis. The primary responsibilities of these position holders are presented below. Note that elected officers and program managers always function as team leads - they are ultimately responsible for the identified function, but they are expected to execute tasks within teams:
 
 
 ```{r roles, echo=FALSE, warning=FALSE, message=FALSE}
@@ -161,10 +157,4 @@ kable(together) %>%
 ```
 
 
-## Role conflict
 
-Eagle I.O members are expected to behave maturely and engage with other members in a respectful and understanding manner. Should arguments and/or disagreements occur regarding decision-making, the faculty advisor has the final say.
-
-If continuous conflict originates from a singular member against the rest of the group, that member will be placed on probation for one semester at the discretion of the faculty advisor.
-
-Once the member returns from their probation, if they continue to engage in aggressive and/or disrespectful behaviors towards the other members, they will be executed.

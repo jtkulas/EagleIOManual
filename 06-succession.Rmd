@@ -40,6 +40,7 @@
     + Member should be given a timeline to pick up responsibilities
     + If member is unable to fulfill responsibilities, faculty advisor strips title and reassigns role
 
+## Succession Timetable{#timetable}
 
 ```{r echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 
