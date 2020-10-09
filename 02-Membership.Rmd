@@ -12,7 +12,7 @@ All members are expected to participate for a minimum of 1.5 years (one Fall sem
 
 ...need to attend all meetings [in the latter half of the Spring semester](#timetable), maintain a GPA greater than 3.5, engage in OCB's, be responsive to professors, and actively contribute to the program culture at MSU.
 
-### Opportunity for late admission [^1]
+### Opportunity for late admission [^1] {#late}
 
 This section outlines the procedure to follow if a student missed the recruitment window, but has indicated an interest to "join late"
 

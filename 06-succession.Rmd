@@ -2,43 +2,34 @@
 
 ![](images/replacements.PNG)
 
-## Framework:  
+## Recruitment 
 
-+ Recruitment and selection
-    + Marketing Officer responsible for sending out flyers about recruitment
-    + When student wants to join outside of recruitment stage
-        + Case should be discussed with all current members of Eagle I.O
-+ All members identify possible Eagle I.O members 
-+ Criteria: 
-    + Current GPA
-    + Classes completed
-    + Research/projects
-    + Organizational Citizenship Behavior (OCB's) 
-        * For example, number of events/hangouts attended
-    + Involvement in Mentorship program
-    + Involvement in attending events
-    + Completed at least one semester of the MSU I/O program
-        + For both Masters' and PhD students
+Current Eagle I.O consultants should send out emails and flyers to current students in the MSU I/O Psychology Program to join Eagle I.O.
 
-## Selection into formal roles:
+Current members may host an information session to inform prospective members of the membership requirements & expectations and the products Eagle I.O currently produces. 
 
-+ New members nominate themselves and/or others for roles
-+ Faculty member considers all nominations and makes final decision
-+ Roles can be own by one member, or can be co-owned (should be determine with the amount of projects/responsibilities the role holds)
-+ Role assignments will be discussed after the first-year students have shadowed for a semester (shadowing occurs during the Spring semester)
-    + Shadowing = attending meetings
+Under special circumstances (as discussed by all members of Eagle I.O) students may be allowed to join [outside the period of recruitment](#late). The decision for membership must be discussed by all current members of Eagle I.O and be unanimous.
 
-## Resignment and reassignment
+Criteria  
 
-+ Member are allowed to step down at any time
-    + Including members holding specific titles
-+ If member with title steps down, role must be reassigned effectively
-    + Members nominate themselves/other
-    + Faculty Advisor makes final decision
-+ If member does not fulfill responsibilities of their role
-    + Members should discuss issues together
-    + Member should be given a timeline to pick up responsibilities
-    + If member is unable to fulfill responsibilities, faculty advisor strips title and reassigns role
++ Current GPA 3.8 or higher
++ Organizational Citizenship Behavior (OCBs) - such as presence at events or hangouts
++ Involvement in the membership program
++ Completed at least 1 Semester of classes in the program (Masters or Ph.D.)
+
+
+## Selection into Formal Roles
+
+New members are permitted to nominate themselves and/or others for specific roles. The faculty advisor will consider all nominations and make the final decision for each role. Roles can be assigned to one member, or can be co-owned (this should be determined with the amount of projects/responsibilities the role holds). Role assignments will be discussed after the first-year students have shadowed[^footie] for a semester (shadowing occurs during the Spring semester)
+
+[^footie]:Shadowing = attending meetings
+
+
+## Resignment and Reassignment
+
+Members are allowed to step down at any time. This includes members holding specific titles or roles within Eagle IO. If a member with a title steps down, the role will be reassigned. Reassignment will begin with current members nominating themselves or others for the role. The faculty advisor will then choose the candidate with the most nomination. In the case of a tie or no nominations, the faculty advisor will make the final decision.
+
+If a member with a title or role is not fulfilling their responsibilities, the issue will be discussed with the broader Eagle IO group and the faculty advisor. The group will come to a consensus on an appropriate timeline to catch up with their responsibilities. If the member is unable to adhere to and fulfill their responsibilities within the given timeline, the faculty advisor will strip them of their title, and the process to reassign the role will begin. Should the member lapse on their responsibilities again, the issue will be brought to the broader group and a vote will be taken on whether or not to keep the member in their role or strip their title.
 
 ## Succession Timetable{#timetable}
 
@@ -46,6 +37,7 @@
 
 library(knitr)
 library(tidyverse)
+library(kableExtra)
 
 events <- read.csv("onboard.csv")
 
