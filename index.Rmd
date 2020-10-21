@@ -63,7 +63,7 @@ As of `r month` `r year`, the ongoing projects that Eagle I.O manages include:
 + an engagement survey, and 
 + this student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
 
-Future aspirations are to have Eagle I.O be a client-facing organization that can provide student-led solutions to external clients.
+Future plans are to have Eagle I.O be a client-facing organization that can provide student-led solutions to external clients.
 
 
 ```{r include=FALSE}
