@@ -7,7 +7,7 @@ As of Spring Semester 2020, the organizational structure of Eagle I.O is:
 </center> 
 
 
-```{r trying, echo=FALSE, warning=FALSE, message=FALSE}
+```{r trying, echo=FALSE, warning=FALSE, message=FALSE, include = FALSE}
 
 library(grid)
 library(Gmisc)
