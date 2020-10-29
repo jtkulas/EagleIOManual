@@ -17,11 +17,11 @@ htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height
     + Revisit the method used to match and whether other factors should be considered.
     + Form a survey team to create a qualtrics survey and do the matching process
     + Work to match along 5 dimensions: 
-        1. name
-        2. hometown
-        3. undergrad major/minor
-        4. part/full time, 
-        5. academic/applied 
+        1. Name
+        2. Hometown
+        3. Undergrad major/minor
+        4. Part/full time, 
+        5. Academic/applied 
 * Duration or partnership between mentee and mentor (semester or annual)
     + Mandatory to keep them mentor/mentee partnership for a semester
         
