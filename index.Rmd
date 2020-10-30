@@ -28,7 +28,7 @@ This is the student consultant handbook for members of Eagle I.O. Herein lie exp
 
 **About us**:
 
-We are a student-led consulting group within the Industrial/Organizational Psychology program at Montclair State University, founded in 2019. We look at ourselves as hard-working, driven students who wish to strengthen MSU's I/O Psychology program, as well as learn outside of the classroom to build upon our skills and knowledge.  We pride ourselves with strong involvement in local and national I/O groups, namely [METRO](https://metroapppsych.com/) and [SIOP](https://siop.org).
+We are a [student-led consulting group](https://eagle-io.weebly.com/) within the Industrial/Organizational Psychology program at [Montclair State University](https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/), founded in 2019. We look at ourselves as hard-working, driven students who wish to strengthen MSU's I/O Psychology program, as well as learn outside of the classroom to build upon our skills and knowledge.  We pride ourselves with strong involvement in local and national I/O groups, namely [METRO](https://metroapppsych.com/) and [SIOP](https://siop.org).
 
 **What we do**:
 
@@ -59,9 +59,9 @@ month[month == "12"] <- "Winter"
 
 As of `r month` `r year`, the ongoing projects that Eagle I.O manages include: 
 
-+ a [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ years and returning MSU I/O Masters' and PhD program students, 
-+ an engagement survey, and 
-+ this student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
++ A [mentorship program](https://bookdown.org/kulasj/mentoruser/) between the 1^st^ years and returning MSU I/O Masters' and PhD program students, 
++ An engagement survey, and 
++ This student consultant manual (which includes, for example, a succession plan to sustain and grow Eagle I.O)
 
 Future plans are to have Eagle I.O be a client-facing organization that can provide student-led solutions to external clients.
 
