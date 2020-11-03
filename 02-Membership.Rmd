@@ -25,7 +25,7 @@ If the current occupancy of Eagle I.O is less than 10, then there is a list of m
 * At least 1 semester remaining in the program
 * An expressed interest
 
-## Eagle I.O Expectations (all members)
+## Eagle I.O expectations (all members)
 
 Regardless of whether a new or continuing member, all student consultants are held to the following expectations:
 

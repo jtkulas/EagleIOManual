@@ -14,7 +14,7 @@ Regarding time expectations of Eagle I.O members:
 htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
 ```
 
-## [Consultant Development Plan](https://docs.google.com/document/d/13OhBJgO4Lr40uA9s3tLBTm17TNRrQa-NJnfTIbSGmT4/edit?usp=sharing) 
+## [Consultant development plan](https://docs.google.com/document/d/13OhBJgO4Lr40uA9s3tLBTm17TNRrQa-NJnfTIbSGmT4/edit?usp=sharing) 
 
 Each consultant, in collaboration with one of the faculty advisors, will complete an individual development plan that is specific to their individualized developmental goals within Eagle I.O. A template plan is available [here](https://docs.google.com/document/d/13OhBJgO4Lr40uA9s3tLBTm17TNRrQa-NJnfTIbSGmT4/edit?usp=sharing). Example skills to consider developing within Eagle I.O functions include professional, I/O content-domain specific, and/or technical (`R`-oriented) skills.
 
@@ -40,7 +40,7 @@ As of Spring Semester 2020, the formal roles of Eagle I.O are:
 
 The following chart is intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated in the figure, although all of these relationships are intended to be bidirectional.
 
-```{r FunkyInteractiveChart, include=TRUE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
+```{r FunkyInteractiveChart, include=FALSE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
 
 ## Add three roles: Faculty Mentorship Advisor, Web Officer, R Guru
 
