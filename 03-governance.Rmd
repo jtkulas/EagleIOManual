@@ -40,7 +40,7 @@ As of Spring Semester 2020, the formal roles of Eagle I.O are:
 
 The following chart is intended to estimate the amount of reliance of each role upon each other. Directionality is also indicated in the figure, although all of these relationships are intended to be bidirectional.
 
-```{r FunkyInteractiveChart, include=FALSE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
+```{r FunkyInteractiveChart, include=TRUE, echo=FALSE, warning=FALSE, message=FALSE, fig.height=11}
 
 ## Add three roles: Faculty Mentorship Advisor, Web Officer, R Guru
 
