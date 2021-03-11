@@ -2,11 +2,11 @@
 
 ![](images/duty.jpg)
 
-All members are expected to participate for a minimum of 1.5 years (one Fall semester, two Spring semesters, and to be reasonably available over Winter and Summer breaks).
+All members are expected to participate approximately 8 hours per week, although there is quite a bit of variability around this number depending on current projects. Members are furthermore expected to be reasonably available over Winter and Summer breaks.
 
 ## Current members...
 
-...need to attend all Eagle IO meetings (unless there is a legitimate reason for absence), maintain a GPA greater than 3.5, actively participate both within the group and also with the products. 
+...need to attend all Eagle I.O meetings (unless there is a legitimate reason for absence), maintain a GPA greater than 3.5, actively participate both within the group and with the products, and lead at least one project within their first 2 semesters of membership. 
 
 ## New members...
 
@@ -37,9 +37,8 @@ Regardless of whether a new or continuing member, all student consultants are he
 + Contribute to at least one Eagle I.O project (mentorship program, survey developments)
 + Annually review (and update if warranted) the Mentorship and Consultant manuals
 + Participate as a mentor in the Mentorship program
-+ For those in formal [roles](#roles):
++ Meet the specific [role requirements](#roles)
     + Successfully execute the responsibilities of the assigned role
-    + Keep track of the inbox 
 
 ## Eagle I.O KSA's (all members)
 

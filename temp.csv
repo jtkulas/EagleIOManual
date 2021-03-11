@@ -1,10 +1,25 @@
-Role,,,,
-Faculty Advisor,Long-term visioning (5-year plan),"Annual goal-setting and monitoring (projects, clients, research)",Budgeting and staffing,
-Faculty Mentorship Coordinator,Establish and maintain alumni contact list,Integrate alumni and current student populations,Assist Mentorship Coordinator with program management,
-Governance Officer,Meet with advisor to create bi-weekly agenda ,Ensure group dynamic is working ,Lead bi-weekly meetings,GroupMe coordinator
-Marketing Officer,Create and keep web page updated,Maintain alumni relations and contact information ,Maintain and update flyer for promotion of group,"Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc.)"
-Engagement Coordinator,"Administration, scoring, and reporting",Norms development and maintenance,Ongoing validation studies and technical report generation,Delegating project-related tasks to others
-Mentorship Coordinator,Keep track of mentor-mentee communications,Ensure all incoming first year students have a mentor (pairing process),Update calendar of activities and communicate with program participants,Keep track of mentors and mentees - Holding them accountable for meetings and communication
-Parlimentarian,Seek out and follow-up on project leads,Check Eagle IO email and communicate,Take notes during meetings and uploading to share drive,Keep track of the agenda during meetings
-Web Officer,Routine maintenance & keeping the content up-to-date,Checking links to make sure links are still active,Adding content/pages as necessary to align with current projects,
-R Guru,Provide technical support for Eagle I.O projects,Serve as a resource for those who abhor R,,
+Role,,,,,,,,,
+Faculty Advisor,Long-term visioning (5-year plan),"Annual goal-setting and monitoring (projects, clients, research)",Budgeting and staffing,,,,,,
+Faculty Mentorship Coordinator,Establish and maintain alumni contact list,Integrate alumni and current student populations,Assist Mentorship Coordinator with program management,,,,,,
+Governance Officer,"Uses Trello to track each member’s progress within their roles, members’ involvement in projects, and project updates
+","Uses Excel to organize members’ involvement in projects
+","Ensure group dynamic is working
+",GroupMe coordinator,Acts as project manager to ensure progress is being made in every project and that members are working towards the project’s goals,Updates the consultant manual,Leads membership recruitment and selection process,"Leads sustainability change management process once a year
+",
+Event Coordinator,"Updates all contact lists for events (incoming students, current students, alumni, and faculty)
+",Create and emails invitations for events,"Updates the RSVP lists for events
+",Obtains graduation stoles for graduating members of Eagle I.O,"Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc)
+",,,,
+Engagement Coordinator,"Administration, scoring, and reporting",Norms development and maintenance,Ongoing validation studies and technical report generation,Delegating project-related tasks to others,,,,,
+Student Mentorship Coordinator,Keeps track of current student and incoming student contact lists,"Leads email communications for the mentorship program (interest, check-in surveys, feedback surveys, etc.)",Hosts training sessions for mentors and mentees on how to be successful in the mentorship program,Holds mentors/mentees accountable and keeps track of their progress,Handles conflicts with mentorship program,Leads mini team for mentor-mentee pairing process,Ensures all interested students are paired,Updates the mentorship manual,
+Alumni Mentorship Coordinator,Keeps track of current student and alumni contact lists,Leads continuous recruitment of alumni,"Leads email communications for the mentorship program (interest, check-in surveys, feedback surveys, etc.)",Communicates mentorship guidelines to mentors and mentees on how to be successful in the mentorship program,Holds mentors/mentees accountable and keeps track of their progress,"Handles conflicts with mentoring program
+",Leads mini team for mentor-mentee pairing process,Ensures all interested students have a mentor,Updates the mentorship manual
+Parlimentarian,"Emails members reminders of important tasks to work on before the next bi-weekly meeting
+","Check Eagle I.O email and communicates
+",Takes notes during meetings and uploads to share drive,"Works with faculty advisor to create each bi-weekly meeting agenda
+",Allots 1-2 minutes in the agenda for each member to provide quick project updates,Reaches out to projects leads to ask if they would like additional time in the agenda to speak about their project,Surveys members to set the bi-weekly meeting time at the beginning of each semester,"Communicates meeting cancellations and issues with the meeting schedule (e.g., holidays)",Organizes and maintains organization of the Eagle I.O Google Drive
+Social Media & Website Coordinator,Updates and frequently posts on LinkedIn,"Eagle I.O members will provide posts (e.g., current project information) to be edited and officially posted by the coordinator","Updates the current members, previous members, ongoing projects, past projects, and events pages on the Eagle I.O website","Creates new Eagle I.O social media pages as needed (e.g., Facebook or Twitter)",,,,,
+R Mentor,Leads a mini team that creates and presents R tutorials during bi-weekly Eagle I.O meetings,"Mini team allows others to build skills in R and prevents the R Mentor from becoming the sole student skilled and in charge of R products
+","Creates tutorials for other resources (e.g., GitHub, rmarkdown, bookdown)",Acts as a mentor and guides others trying to build their skills in R,,,,,
+Executive  Consultant,"Be continuously involved in at least one project
+",Assist with responsibilities of other roles,"Role for students who already had a formal role for two semesters, are still in the I/O program, and continuing their Eagle I.O membership",Multiple members can hold this role,,,,,
