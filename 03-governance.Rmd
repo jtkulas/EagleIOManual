@@ -90,7 +90,7 @@ m <- matrix(c(0,  7, 7,10, 5,  5, 2, 2, 2, 5, 7,
             byrow = TRUE,
             nrow = 11, ncol = 11)
 
-contact <- c("Faculty", "Faculty2", "Governance", "Engagement", "Website", "Mentor1", "Mentor2", "Event", "Parliment", "R", "Executive")
+contact <- c("Faculty", "Faculty2", "Governance", "Engagement", "Website", "Mentor1", "Mentor2", "Event", "Parliament", "R", "Executive")
 
 dimnames(m) <- list(plans = contact,
                     executes = contact)
@@ -206,7 +206,7 @@ Additional roles can be assigned on an as needed (e.g., project-by-project) basi
 + Ensures all interested students have a mentor	
 + Updates the mentorship manual
 
-**Parlimentarian**:  
+**Parliamentarian**:  
 
 + Emails members reminders of important tasks to work on before the next bi-weekly meeting
 + Check Eagle I.O email and communicate events

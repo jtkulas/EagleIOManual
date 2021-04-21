@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Eagle I.O Consultant Manual</title>
   <meta name="description" content="This is the student consultant handbook for members of Eagle I.O. The output format for this example is bookdown::gitbook." />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Eagle I.O Consultant Manual" />
   <meta property="og:type" content="book" />
@@ -49,7 +49,16 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+<script src="libs/d3-4.13.0/d3.min.js"></script>
+<script src="libs/d3-tip-0.8.1/index.js"></script>
+<link href="libs/chorddiag-0.1.2.9000/chorddiag.css" rel="stylesheet" />
+<script src="libs/chorddiag-0.1.2.9000/chorddiag.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -71,28 +80,10 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Homepage</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="duties.html"><a href="duties.html"><i class="fa fa-check"></i><b>2</b> Duties</a><ul>
-<li class="chapter" data-level="2.1" data-path="duties.html"><a href="duties.html#eagle-i.o-expectations-tasks-aka-criteria-aka-dvs"><i class="fa fa-check"></i><b>2.1</b> Eagle I.O Expectations (Tasks aka Criteria aka DVs)</a></li>
-<li class="chapter" data-level="2.2" data-path="duties.html"><a href="duties.html#eagle-i.o-requirements-ksas-aka-predictors-aka-ivs"><i class="fa fa-check"></i><b>2.2</b> Eagle I.O Requirements (KSA’s aka Predictors aka IVs)</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="roles-and-responsibilities.html"><a href="roles-and-responsibilities.html"><i class="fa fa-check"></i><b>3</b> Roles and Responsibilities</a><ul>
-<li class="chapter" data-level="3.1" data-path="roles-and-responsibilities.html"><a href="roles-and-responsibilities.html#role-conflict"><i class="fa fa-check"></i><b>3.1</b> Role conflict</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="overview-of-projects.html"><a href="overview-of-projects.html"><i class="fa fa-check"></i><b>4</b> Overview of Projects</a><ul>
-<li class="chapter" data-level="4.1" data-path="overview-of-projects.html"><a href="overview-of-projects.html#meetings"><i class="fa fa-check"></i><b>4.1</b> Meetings</a></li>
-<li class="chapter" data-level="4.2" data-path="overview-of-projects.html"><a href="overview-of-projects.html#mentorship-program-management"><i class="fa fa-check"></i><b>4.2</b> <span>Mentorship Program Management</span></a></li>
-<li class="chapter" data-level="4.3" data-path="overview-of-projects.html"><a href="overview-of-projects.html#consultant-development-plan"><i class="fa fa-check"></i><b>4.3</b> Consultant Development Plan</a></li>
-<li class="chapter" data-level="4.4" data-path="overview-of-projects.html"><a href="overview-of-projects.html#what-to-do-for-legitimacy"><i class="fa fa-check"></i><b>4.4</b> What to do for <em>Legitimacy</em></a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="membership.html"><a href="membership.html"><i class="fa fa-check"></i><b>5</b> Membership</a><ul>
-<li class="chapter" data-level="5.1" data-path="membership.html"><a href="membership.html#current-members"><i class="fa fa-check"></i><b>5.1</b> Current members</a></li>
-<li class="chapter" data-level="5.2" data-path="membership.html"><a href="membership.html#new-members"><i class="fa fa-check"></i><b>5.2</b> New members</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="succession-planning.html"><a href="succession-planning.html"><i class="fa fa-check"></i><b>6</b> Succession Planning</a><ul>
-<li class="chapter" data-level="6.1" data-path="succession-planning.html"><a href="succession-planning.html#framework"><i class="fa fa-check"></i><b>6.1</b> Framework:</a></li>
-<li class="chapter" data-level="6.2" data-path="succession-planning.html"><a href="succession-planning.html#selection-into-formal-roles"><i class="fa fa-check"></i><b>6.2</b> Selection into formal roles:</a></li>
-<li class="chapter" data-level="6.3" data-path="succession-planning.html"><a href="succession-planning.html#resignment-and-reassignment"><i class="fa fa-check"></i><b>6.3</b> Resignment and reassignment</a></li>
-</ul></li>
+<li class="chapter" data-level="2" data-path="duties.html"><a href="duties.html"><i class="fa fa-check"></i><b>2</b> Membership</a></li>
+<li class="chapter" data-level="3" data-path="governance.html"><a href="governance.html"><i class="fa fa-check"></i><b>3</b> Governance</a></li>
+<li class="chapter" data-level="4" data-path="products.html"><a href="products.html"><i class="fa fa-check"></i><b>4</b> Products</a></li>
+<li class="chapter" data-level="5" data-path="progression-succession.html"><a href="progression-succession.html"><i class="fa fa-check"></i><b>5</b> Progression &amp; Succession</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -116,14 +107,14 @@
 <div id="header">
 <h1 class="title">Eagle I.O Consultant Manual</h1>
 <p class="author"><em>Eagle I.O</em></p>
-<p class="date"><em>Most recently updated Wednesday June 10 2020 7:04:37 PM Eastern</em></p>
+<p class="date"><em>Most recently updated Wednesday April 21 2021 1:49:18 PM Eastern</em></p>
 </div>
 <div id="homepage" class="section level1 unnumbered">
 <h1>Homepage</h1>
 <center>
-<img src="images/eagleio.png" />
+<img src="images/eagleio%20dot.jpg" />
 </center>
-<p>This is the student consultant handbook for members of Eagle I.O. Herein lie expectations, responsibilities, and strategy to keep Eagle I.O sustailable with future <a href="https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/">Montclair State University I/O Psychology</a> cohorts…</p>
+<p>This is the student consultant handbook for members of Eagle I.O. Herein lie expectations, responsibilities, and strategy to keep Eagle I.O sustainable with future <a href="https://www.montclair.edu/psychology/graduate-programs/industrial-organizational-psychology/">Montclair State University I/O Psychology</a> cohorts…</p>
 </div>
             </section>
 
