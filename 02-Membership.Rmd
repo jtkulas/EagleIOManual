@@ -25,6 +25,15 @@ If the current occupancy of Eagle I.O is less than 10, then there is a list of m
 * At least 1 semester remaining in the program
 * An expressed interest
 
+Under special circumstances (as discussed by all members of Eagle I.O) students may be allowed to join [outside the period of recruitment](#late). The decision for membership must be discussed by all current members of Eagle I.O and be unanimous.
+
+Criteria  
+
++ Current GPA 3.5 or higher
++ Organizational Citizenship Behavior (OCBs) - such as presence at events or hangouts
++ Involvement in the membership program
++ Completed at least 1 semester of classes in the program (Masters' or Ph.D.)
+
 ## Eagle I.O expectations (all members)
 
 Regardless of whether a new or continuing member, all student consultants are held to the following expectations:
