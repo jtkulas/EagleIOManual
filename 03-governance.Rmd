@@ -10,9 +10,11 @@ Regarding time expectations of Eagle I.O members:
     + If you miss *more than one* meeting, and cannot call or make other arrangements for your virtual attendence, you will be put on probation (1 semester term) 
     + If you miss another meeting while on probation you will be expelled from Eagle I.O and fed to **Sir pSyCaDeLiCaT** in an agonizingly painful yet exceedingly beautiful ceremony
 
+<p align="center">
 ```{r kitty3, echo=FALSE, warning=FALSE}
 htmltools::tags$iframe(title = "Embedded HTML", src = "./gifs/giphy.gif", height=490, width=490)
 ```
+</p>
 
 ## [Consultant development plan](https://docs.google.com/document/d/13OhBJgO4Lr40uA9s3tLBTm17TNRrQa-NJnfTIbSGmT4/edit?usp=sharing) 
 
@@ -171,13 +173,13 @@ Additional roles can be assigned on an as needed (e.g., project-by-project) basi
 + Ensures group dynamic is working
 + Leads membership recruitment and selection process	
 + Leads sustainability change management process once a year
++ GroupMe coordinator
 
 **Event Coordinator**:  
 
 + Updates all contact lists for events (incoming students, current students, alumni, and faculty)
 + Creates and emails invitations for events	
 + Obtains graduation stoles for graduating members of Eagle I.O	"Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc)
-+ GroupMe coordinator	
 
 **Engagement Coordinator**:  
 
@@ -209,7 +211,7 @@ Additional roles can be assigned on an as needed (e.g., project-by-project) basi
 **Parliamentarian**:  
 
 + Emails members reminders of important tasks to work on before the next bi-weekly meeting
-+ Check Eagle I.O email and communicate events
++ Check Eagle I.O email 
 + Takes notes during meetings and uploads to share drive	
 + Works with faculty advisor to create each bi-weekly meeting agenda[^nother]
 +	Surveys members to set the bi-weekly meeting time at the beginning of each semester	
