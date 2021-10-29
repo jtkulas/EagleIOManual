@@ -1,4 +1,4 @@
-# Governance {#governance}
+# Internal Operations {#governance}
 
 ![](images/governance.png)
 
@@ -174,12 +174,14 @@ Additional roles can be assigned on an as needed (e.g., project-by-project) basi
 + Leads membership recruitment and selection process	
 + Leads sustainability change management process once a year
 + GroupMe coordinator
++ E-mail the recommended course registration options to students (two weeks prior to registration period)
 
 **Event Coordinator**:  
 
-+ Updates all contact lists for events (incoming students, current students, alumni, and faculty)
-+ Creates and emails invitations for events	
-+ Obtains graduation stoles for graduating members of Eagle I.O	"Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc)
++ [Creates](https://docs.google.com/document/d/1IjvTktndY3jRej4su-R3zDifvfWRX7zHzC9pE9od_3M/edit?usp=sharing) events
++ Obtains graduation stoles for graduating members of Eagle I.O	
++ Coordinate logistics of annual events (orientation, mid-year soiree, SIOP, etc)
++ Communicates events to students via e-mail
 
 **Engagement Coordinator**:  
 
@@ -190,9 +192,8 @@ Additional roles can be assigned on an as needed (e.g., project-by-project) basi
 
 **Student Mentorship Coordinator**:	
 
-+ Keeps track of current student and incoming student contact lists	
++ Contacts the Parliamentarian as needed to access current and incoming student contact lists	
 + Leads email communications for the mentorship program (interest, check-in surveys, feedback surveys, etc.)	
-+ Hosts training sessions for mentors and mentees on how to be successful in the mentorship program	
 + Holds mentors/mentees accountable and keeps track of their progress	
 + Leads mini team for mentor-mentee pairing process	
 + Ensures all interested students are paired	
@@ -200,6 +201,7 @@ Additional roles can be assigned on an as needed (e.g., project-by-project) basi
 
 **Alumni Mentorship Coordinator**:  
 
++ Updates contact lists for alumni
 + Keeps track of current student and alumni contact lists	
 + Leads continuous recruitment of alumni	
 + Communicates mentorship guidelines to mentors and mentees on how to be successful in the mentorship program	
@@ -216,22 +218,26 @@ Additional roles can be assigned on an as needed (e.g., project-by-project) basi
 + Works with faculty advisor to create each bi-weekly meeting agenda[^nother]
 +	Surveys members to set the bi-weekly meeting time at the beginning of each semester	
 + Organizes and maintains organization of the Eagle I.O Google Drive
++ Updates contact lists for current students (once per semester)
+  + this is done on the *Eagle I.O gmail account*
 
 **Social Media & Website Coordinator**:  
 
 + Maintains and updates the Eagle I.O website
-+ Updates and frequently posts on LinkedIn	
++ Maintains and updates [`r icon::fa_linkedin(colour = "royalblue")`](https://www.linkedin.com/company/eagle-i-o/)
   + Eagle I.O members will provide posts (e.g., current project information) to be edited and officially posted by the coordinator
-+ Creates new Eagle I.O social media pages as needed (e.g., Facebook or Twitter)					
++ Creates new Eagle I.O social media pages as needed (such as Facebook or Instagram)					
 
-**`R` Mentor**:	 
+**`r icon::fa("r-project")` Mentor**:	 
 
-+ Leads a mini team that creates and presents `R` tutorials during bi-weekly Eagle I.O meetings[^again]	
++ Leads a mini team that creates and presents `r icon::fa("r-project")` tutorials during bi-weekly Eagle I.O meetings[^again]	
 +	Creates tutorials for other resources (e.g., GitHub, rmarkdown, bookdown)	
-+ Acts as a mentor and guides others trying to build their skills in `R`				
++ Acts as a mentor and guides others trying to build their skills in `r icon::fa("r-project")`				
 
 **Executive Consultant**:[^yikes]  
 
++ Be accessible as a resource to other members of the group
++ Share in the management and governance of Eagle I.O
 + Be continuously involved in at least one project
 + Assist with responsibilities of other roles		
 + Multiple members can hold this role	
